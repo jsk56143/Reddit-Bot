@@ -1,6 +1,6 @@
-#Sort Collection Documentation
+# Sort Collection Documentation
 
-##Description
+## Description
 
 **Author**: Josh Kim
 
@@ -14,4 +14,4 @@
 
 * Currently, the only way to reorder collections is to manually click and drag posts. This is very time consuming especially when the collection can hold a max of 100 posts.
 
-* This script can be configured to work on other subreddits and collections. See below for more information. 
+* This script can be configured to work on other subreddits and collections. See code in src/sortCollection.py for more information. 
