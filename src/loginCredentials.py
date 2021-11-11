@@ -1,0 +1,5 @@
+client_id_login = ""
+client_secret_login = ""
+password_login = ""
+user_agent_login = ""
+username_login = ""
