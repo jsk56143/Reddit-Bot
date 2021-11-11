@@ -2,7 +2,7 @@
 
 ## Description
 
-* This project is a collection of scripts that better the state of the r/khiphop subreddit.
+* This project is a collection of scripts that better the state of the [r/khiphop](https://www.reddit.com/r/khiphop/) subreddit.
 
 ## Pre-Reqs
 You'll need the following tools:
