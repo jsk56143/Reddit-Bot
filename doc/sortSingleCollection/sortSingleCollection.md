@@ -19,3 +19,9 @@
 ## Instructions
 
 * See code in ../src/sortSingleCollection.py for more information. 
+
+## Example
+As you can see, the two posts below are unordered by their submisison date. The third picture represents the ordered collection after the script.
+![A before picture of one post](before1.jpg)
+![A before picture of another post](before2.jpg)
+![An after picture of an ordered collection](after.jpg)
