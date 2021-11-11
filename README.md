@@ -11,7 +11,7 @@ You'll need the following tools:
 * PRAW ([Install/Update here](https://praw.readthedocs.io/en/stable/getting_started/installation.html))
     * PRAW supports Python 3.6+.
 
-## How to use (for future, if this becomes open source)
+## How to use
 
 1. Clone the repository.
 2. In the src/loginCredentials.py file, input the login credentials inside the quotation marks.
