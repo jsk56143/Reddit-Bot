@@ -1,6 +1,6 @@
 # See ../doc/sortSingleCollection.md for documentation
 # Instructions:
-# 1. Input the subreddit name on line 19.
+# 1. Input the subreddit name without "r/" on line 19.
 # 2. Input the collection UUID on line 22.
 # 3. Run program.
 
