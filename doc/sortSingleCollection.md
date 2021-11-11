@@ -10,7 +10,7 @@
 
 **Purpose**: 
 
-* This script sorts r/khiphop collections chronologically so that all the posts are ordered from oldest at the top to newest at the bottom. 
+* This script sorts r/khiphop collections chronologically so that all the posts are ordered from oldest at the top to newest at the bottom. And, it works regardless of layout type (Standard or Gallery)
 
 * Currently, the only way to reorder collections is to manually click and drag posts. This is very time consuming especially when the collection can hold a max of 100 posts.
 
