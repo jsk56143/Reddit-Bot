@@ -1,6 +1,6 @@
 # See ../doc/sortAllCollections.md for documentation
 # Instructions:
-# 1. Input the subreddit name on line 18.
+# 1. Input the subreddit name without "r/" on line 18.
 # 2. Run program.
 
 import praw
@@ -14,7 +14,7 @@ reddit = praw.Reddit(
     username = username_login
 )
 
-# Change parameter value to your subreddit name
+# Input subreddit name
 subreddit = reddit.subreddit("khiphop")
 
 # Reorders all collections in a subreddit
