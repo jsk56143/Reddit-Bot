@@ -1,4 +1,8 @@
-# See ../doc/sortCollection.md for documentation
+# See ../doc/sortSingleCollection.md for documentation
+# Instructions:
+# 1. Input the subreddit name on line 19.
+# 2. Input the collection UUID on line 22.
+# 3. Run program.
 
 import praw
 from loginCredentials import client_id_login, client_secret_login, password_login, user_agent_login, username_login
@@ -11,10 +15,10 @@ reddit = praw.Reddit(
     username = username_login
 )
 
-# Change parameter value to your subreddit name
+# Input subreddit name
 subreddit = reddit.subreddit("khiphop")
 
-# Input collection UUID and then run program
+# Input collection UUID
 collection = subreddit.collections("b1c98d3c-723c-408d-bbff-a33ee7d5ddb9") # Store specific collection 
 current_order = collection.sorted_links # Store current list of posts
 new_order = [] 
