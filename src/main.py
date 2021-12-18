@@ -4,15 +4,15 @@
 # 2. Run program.
 
 import praw
-from loginCredentials import client_id_login, client_secret_login, password_login, user_agent_login, username_login
+import os
 from constants import teaserComment, discussionComment
 
 reddit = praw.Reddit(
-    client_id = client_id_login,
-    client_secret = client_secret_login,
-    password = password_login,
-    user_agent = user_agent_login,
-    username = username_login
+    client_id = os.environ['reddit_client_id'],
+    client_secret = os.environ['reddit_client_secret'],
+    password = os.environ['reddit_password'],
+    user_agent = os.environ['reddit_user_agent'],
+    username = os.environ['reddit_username']
 )
 
 # Input subreddit name
