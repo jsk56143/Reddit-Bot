@@ -16,15 +16,15 @@ reddit = praw.Reddit(
 )
 
 # Input subreddit name
-subreddit = reddit.subreddit("test484")
+subreddit = reddit.subreddit("khiphop")
 
 # Check stream for rule-breaking posts
 for submission in subreddit.stream.submissions(skip_existing=True):
-    if submission.link_flair_text == "teaser":
+    if submission.link_flair_text == "Teaser":
         comment = submission.reply(teaserComment)
         comment.mod.distinguish(how='yes', sticky=True)
         submission.mod.approve()
-    elif submission.is_self and submission.link_flair_text == "discussion" and len(submission.selftext) < 450:
+    elif submission.is_self and submission.link_flair_text == "Discussion" and len(submission.selftext) < 450:
         comment = submission.reply(discussionComment)
         comment.mod.distinguish(how='yes', sticky=True) 
         submission.mod.remove(mod_note="Body too short")
