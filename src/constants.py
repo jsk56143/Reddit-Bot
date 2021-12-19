@@ -33,7 +33,7 @@ Unfortunately, this post has been removed because I have determined that you did
 
 _I am a bot, and this action was performed automatically. Please contact the [moderators of this subreddit](https://www.reddit.com/message/compose?to=/r/test484) if you have any questions or concerns._"""
 
-musicComment = """Thank you for submitting to r/khiphop!
+musicComment_BrokeTitleFormat = """Thank you for submitting to r/khiphop!
 
 Unfortunately, this post has been removed because I have determined that you did not follow Rule 3: Title Guidelines. Please make sure that you follow this format:
 
@@ -43,3 +43,13 @@ Unfortunately, this post has been removed because I have determined that you did
 
 
 _I am a bot, and this action was performed automatically. Please contact the [moderators of this subreddit](https://www.reddit.com/message/compose?to=/r/test484) if you have any questions or concerns._"""
+
+musicComment_NotALinkPost = """Thank you for submitting to r/khiphop!
+
+Unfortunately, this post has been removed because I have determined that you did not submit a link post. These types of posts are only for official music releases. 
+
+---
+
+
+_I am a bot, and this action was performed automatically. Please contact the [moderators of this subreddit](https://www.reddit.com/message/compose?to=/r/test484) if you have any questions or concerns._"""
+
