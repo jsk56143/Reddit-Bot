@@ -9,7 +9,7 @@ from constants import teaserComment, discussionComment
 
 reddit = praw.Reddit(
     client_id = os.environ['reddit_client_id'],
-    client_secret = os.environ['reddit_client_secret'],
+    client_secret = os.environ['reddit_secret_login'],
     password = os.environ['reddit_password'],
     user_agent = os.environ['reddit_user_agent'],
     username = os.environ['reddit_username']
