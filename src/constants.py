@@ -5,7 +5,7 @@ teaserComment = """As a reminder, we do allow teasers from notable rappers/artis
 ---
 
 
-_I am a bot, and this action was performed automatically. Please contact the [moderators of this subreddit](https://www.reddit.com/message/compose?to=/r/test484) if you have any questions or concerns._"""
+_I am a bot, and this action was performed automatically. Please contact the [moderators of this subreddit](https://www.reddit.com/message/compose?to=/r/khiphop) if you have any questions or concerns._"""
 
 
 discussionComment = """Thank you for submitting to r/khiphop! 
@@ -15,7 +15,7 @@ Unfortunately, this post has been removed because I have determined that this mi
 ---
 
 
-_I am a bot, and this action was performed automatically. Please contact the [moderators of this subreddit](https://www.reddit.com/message/compose?to=/r/test484) if you have any questions or concerns._"""
+_I am a bot, and this action was performed automatically. Please contact the [moderators of this subreddit](https://www.reddit.com/message/compose?to=/r/khiphop) if you have any questions or concerns._"""
 
 
 varietyComment = """Thank you for submitting to r/khiphop!
@@ -31,7 +31,7 @@ Unfortunately, this post has been removed because I have determined that you did
 ---
 
 
-_I am a bot, and this action was performed automatically. Please contact the [moderators of this subreddit](https://www.reddit.com/message/compose?to=/r/test484) if you have any questions or concerns._"""
+_I am a bot, and this action was performed automatically. Please contact the [moderators of this subreddit](https://www.reddit.com/message/compose?to=/r/khiphop) if you have any questions or concerns._"""
 
 musicComment_BrokeTitleFormat = """Thank you for submitting to r/khiphop!
 
@@ -42,7 +42,7 @@ Unfortunately, this post has been removed because I have determined that you did
 ---
 
 
-_I am a bot, and this action was performed automatically. Please contact the [moderators of this subreddit](https://www.reddit.com/message/compose?to=/r/test484) if you have any questions or concerns._"""
+_I am a bot, and this action was performed automatically. Please contact the [moderators of this subreddit](https://www.reddit.com/message/compose?to=/r/khiphop) if you have any questions or concerns._"""
 
 musicComment_NotALinkPost = """Thank you for submitting to r/khiphop!
 
@@ -51,5 +51,5 @@ Unfortunately, this post has been removed because I have determined that you did
 ---
 
 
-_I am a bot, and this action was performed automatically. Please contact the [moderators of this subreddit](https://www.reddit.com/message/compose?to=/r/test484) if you have any questions or concerns._"""
+_I am a bot, and this action was performed automatically. Please contact the [moderators of this subreddit](https://www.reddit.com/message/compose?to=/r/khiphop) if you have any questions or concerns._"""
 
