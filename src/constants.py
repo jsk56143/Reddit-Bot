@@ -46,7 +46,7 @@ _I am a bot, and this action was performed automatically. Please contact the [mo
 
 musicComment_NotALinkPost = """Thank you for submitting to r/khiphop!
 
-Unfortunately, this post has been removed because I have determined that you did not submit a link post. These types of posts are only for official music releases. 
+Unfortunately, this post has been removed because I have determined that you did not submit a link post. The following four flairs are only for official music releases: Music Video, Audio, Live, and Album.
 
 ---
 
