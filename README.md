@@ -14,7 +14,7 @@ You'll need the following tools:
 ## How to use
 
 1. Clone the repository.
-2. Replace with valid login credentials in main.py
+2. Replace with valid login credentials in ./src/main.py
 
 ## Other Info
 
