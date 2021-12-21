@@ -21,5 +21,6 @@
 
 ## Future features
 1. Add teaser image posts to collection. If full and current month hasn't changed, make a new one. If month has changed, make a new month colleciton.
- * Problem: Determining song's genre
 2. Add underground songs to collection. Might involve Spotify, YouTube, and SoundCloud API. 
+
+ * Problem: Determining song's genre
