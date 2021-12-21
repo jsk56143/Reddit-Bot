@@ -14,10 +14,12 @@ You'll need the following tools:
 ## How to use
 
 1. Clone the repository.
-2. In the src/loginCredentials.py file, input the login credentials inside the quotation marks.
-    * You can find the **client_id** and **client_secret** [here](https://www.reddit.com/prefs/apps). If you don't see a section called "developed applications", then you'll need to register for an account via the "are you a developer? create an app..." button.
-    * **Username** and **password** is self-explanatory.
-    * **User_agent** is basically a string of text that's sent with HTTP requests to identify the program making the request. In layman's terms, just enter the name of your program. For example, mine could be called "khiphop-bot".
-3. Look for a script you want to use in the doc (documentation) directory. The corresponding source code is available in the src (source) directory with the same filename. 
+2. Replace with valid login credentials in main.py
+
+## Other Info
+
+* **./src/main.py** contains code for the Reddit bot.
+* **./src/sortAllCollections.py** and **./src/sortSingleCollection.py** are locally-run scripts that correct the chronological order of collections.
+* There's also documentation in the doc directory.
 
 
