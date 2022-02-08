@@ -28,7 +28,7 @@ def formatRemovalReason(author, body):
 
 # TEASER POST FLAIR
 def replyToTeaserPost(submission):
-    comment = submission.reply(formatRemovalReason(submission.author, teaserComment))
+    comment = submission.reply(teaserComment)
     comment.mod.distinguish(how='yes', sticky=True)
     submission.mod.approve()
 
