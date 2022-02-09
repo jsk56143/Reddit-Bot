@@ -92,12 +92,13 @@ def checkMusicPost(submission):
 
 # Auto-moderate the stream
 for submission in subreddit.stream.submissions(skip_existing=True):
-    if submission.link_flair_text == "Teaser":
-        replyToTeaserPost(submission)
-        #addToArtCollection(submission)
-    elif submission.link_flair_text == "Discussion":
-        checkPostBodyLength(submission)
-    elif submission.link_flair_text == "Variety":
-        checkLangAtEnd(submission)
-    elif submission.link_flair_text == "Music Video" or submission.link_flair_text == "Audio" or submission.link_flair_text == "Live" or submission.link_flair_text == "Album":
-        checkMusicPost(submission)
+    if not(submission.approved_by):
+        if submission.link_flair_text == "Teaser":
+            replyToTeaserPost(submission)
+            #addToArtCollection(submission)
+        elif submission.link_flair_text == "Discussion":
+            checkPostBodyLength(submission)
+        elif submission.link_flair_text == "Variety":
+            checkLangAtEnd(submission)
+        elif submission.link_flair_text == "Music Video" or submission.link_flair_text == "Audio" or submission.link_flair_text == "Live" or submission.link_flair_text == "Album":
+            checkMusicPost(submission)
