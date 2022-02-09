@@ -1,4 +1,5 @@
 # This file contains constants formatted in markdown.
+# If adding removal reasons, include "\n\n" at the end so it can format correctly in markdown.
 
 header = "Hey u/{}, thank you for submitting to r/khiphop! Unfortunately, your submission has been removed for the following reason(s):\n\n"
 
