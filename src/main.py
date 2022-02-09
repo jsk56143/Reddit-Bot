@@ -72,7 +72,7 @@ def checkPostBodyLength(submission):
 # VARIETY POST FLAIR
 def checkLangAtEnd(submission):
     title = submission.title
-    if not("[ENG]" in title or "[ENG SUB]" in title or "[RAW]" in title):
+    if not("[" in title and "]" in title):
         comment = submission.reply(formatRemovalReason(submission.author, varietyComment))
         comment.mod.distinguish(how='yes', sticky=True) 
         submission.mod.remove()

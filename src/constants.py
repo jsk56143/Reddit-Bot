@@ -11,7 +11,6 @@ teaserComment = """As a reminder, we do allow teasers from notable rappers/artis
 
 _I am a bot, and this action was performed automatically. Please contact the [moderators of this subreddit](https://www.reddit.com/message/compose?to=/r/khiphop) if you have any questions or concerns._"""
 
-
 discussionComment = "* This post may be in violation of Rule 5 - Only In-Depth Discussions. General discussion.\n\n"
 
 varietyComment = """* Variety posts must contain the language in brackets. This goes at the end of the post title. 
